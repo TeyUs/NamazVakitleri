@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		2E11A2F42B434B1E00F72129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A2F32B434B1E00F72129 /* AppDelegate.swift */; };
 		2E11A2F62B434B1E00F72129 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A2F52B434B1E00F72129 /* SceneDelegate.swift */; };
-		2E11A2F82B434B1E00F72129 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A2F72B434B1E00F72129 /* ViewController.swift */; };
 		2E11A2FB2B434B1E00F72129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E11A2F92B434B1E00F72129 /* Main.storyboard */; };
 		2E11A2FD2B434B2100F72129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E11A2FC2B434B2100F72129 /* Assets.xcassets */; };
 		2E11A3002B434B2100F72129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E11A2FE2B434B2100F72129 /* LaunchScreen.storyboard */; };
 		2E11A30B2B434B2100F72129 /* NamazVakitleriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A30A2B434B2100F72129 /* NamazVakitleriTests.swift */; };
 		2E11A3152B434B2100F72129 /* NamazVakitleriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A3142B434B2100F72129 /* NamazVakitleriUITests.swift */; };
 		2E11A3172B434B2100F72129 /* NamazVakitleriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A3162B434B2100F72129 /* NamazVakitleriUITestsLaunchTests.swift */; };
+		2E11A36C2B435A2A00F72129 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A36B2B435A2A00F72129 /* CountryViewController.swift */; };
+		2E11A36E2B435AEF00F72129 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A36D2B435AEF00F72129 /* CountryViewModel.swift */; };
+		2E11A3702B435C3200F72129 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A36F2B435C3200F72129 /* CountryModel.swift */; };
+		2E11A3732B435F8300F72129 /* CountryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A3722B435F8300F72129 /* CountryService.swift */; };
+		2E11A3762B43600F00F72129 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2E11A3752B43600F00F72129 /* Alamofire */; };
+		2E11A3782B436BF600F72129 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A3772B436BF600F72129 /* Constants.swift */; };
+		2E11A37A2B436CDB00F72129 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11A3792B436CDB00F72129 /* CityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,6 @@
 		2E11A2F02B434B1E00F72129 /* NamazVakitleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamazVakitleri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E11A2F32B434B1E00F72129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E11A2F52B434B1E00F72129 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E11A2F72B434B1E00F72129 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E11A2FA2B434B1E00F72129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E11A2FC2B434B2100F72129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E11A2FF2B434B2100F72129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,12 @@
 		2E11A3102B434B2100F72129 /* NamazVakitleriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NamazVakitleriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E11A3142B434B2100F72129 /* NamazVakitleriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamazVakitleriUITests.swift; sourceTree = "<group>"; };
 		2E11A3162B434B2100F72129 /* NamazVakitleriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamazVakitleriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E11A36B2B435A2A00F72129 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		2E11A36D2B435AEF00F72129 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		2E11A36F2B435C3200F72129 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		2E11A3722B435F8300F72129 /* CountryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryService.swift; sourceTree = "<group>"; };
+		2E11A3772B436BF600F72129 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2E11A3792B436CDB00F72129 /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E11A3762B43600F00F72129 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +111,15 @@
 		2E11A2F22B434B1E00F72129 /* NamazVakitleri */ = {
 			isa = PBXGroup;
 			children = (
+				2E11A3712B435EE500F72129 /* Network */,
+				2E11A3242B434D3100F72129 /* Scenes */,
 				2E11A2F32B434B1E00F72129 /* AppDelegate.swift */,
 				2E11A2F52B434B1E00F72129 /* SceneDelegate.swift */,
-				2E11A2F72B434B1E00F72129 /* ViewController.swift */,
 				2E11A2F92B434B1E00F72129 /* Main.storyboard */,
 				2E11A2FC2B434B2100F72129 /* Assets.xcassets */,
 				2E11A2FE2B434B2100F72129 /* LaunchScreen.storyboard */,
 				2E11A3012B434B2100F72129 /* Info.plist */,
+				2E11A3772B436BF600F72129 /* Constants.swift */,
 			);
 			path = NamazVakitleri;
 			sourceTree = "<group>";
@@ -127,6 +141,41 @@
 			path = NamazVakitleriUITests;
 			sourceTree = "<group>";
 		};
+		2E11A3232B434D1800F72129 /* CityPage */ = {
+			isa = PBXGroup;
+			children = (
+				2E11A3792B436CDB00F72129 /* CityViewController.swift */,
+			);
+			path = CityPage;
+			sourceTree = "<group>";
+		};
+		2E11A3242B434D3100F72129 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2E11A36A2B435A0C00F72129 /* CountryPage */,
+				2E11A3232B434D1800F72129 /* CityPage */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2E11A36A2B435A0C00F72129 /* CountryPage */ = {
+			isa = PBXGroup;
+			children = (
+				2E11A36B2B435A2A00F72129 /* CountryViewController.swift */,
+				2E11A36D2B435AEF00F72129 /* CountryViewModel.swift */,
+				2E11A36F2B435C3200F72129 /* CountryModel.swift */,
+			);
+			path = CountryPage;
+			sourceTree = "<group>";
+		};
+		2E11A3712B435EE500F72129 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2E11A3722B435F8300F72129 /* CountryService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +192,9 @@
 			dependencies = (
 			);
 			name = NamazVakitleri;
+			packageProductDependencies = (
+				2E11A3752B43600F00F72129 /* Alamofire */,
+			);
 			productName = NamazVakitleri;
 			productReference = 2E11A2F02B434B1E00F72129 /* NamazVakitleri.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +267,9 @@
 				Base,
 			);
 			mainGroup = 2E11A2E72B434B1E00F72129;
+			packageReferences = (
+				2E11A3742B43600F00F72129 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 2E11A2F12B434B1E00F72129 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E11A2F82B434B1E00F72129 /* ViewController.swift in Sources */,
+				2E11A3732B435F8300F72129 /* CountryService.swift in Sources */,
+				2E11A36C2B435A2A00F72129 /* CountryViewController.swift in Sources */,
+				2E11A36E2B435AEF00F72129 /* CountryViewModel.swift in Sources */,
+				2E11A37A2B436CDB00F72129 /* CityViewController.swift in Sources */,
 				2E11A2F42B434B1E00F72129 /* AppDelegate.swift in Sources */,
+				2E11A3782B436BF600F72129 /* Constants.swift in Sources */,
 				2E11A2F62B434B1E00F72129 /* SceneDelegate.swift in Sources */,
+				2E11A3702B435C3200F72129 /* CountryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +667,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E11A3742B43600F00F72129 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E11A3752B43600F00F72129 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E11A3742B43600F00F72129 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E11A2E82B434B1E00F72129 /* Project object */;
 }
